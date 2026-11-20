@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="640" viewBox="0 0 1180 640">
+  <rect width="1180" height="640" fill="#f7f3ea"/>
+  <text x="590" y="55" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#263128">Arquitetura - Dicas da Juju</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="18" text-anchor="middle">
+    <rect x="55" y="120" width="230" height="130" rx="14" fill="#fff" stroke="#4f7055" stroke-width="3"/>
+    <text x="170" y="165" font-size="21" font-weight="700" fill="#36533b">Usuario</text>
+    <text x="170" y="205" fill="#6e756f">Navegador Web</text>
+    <text x="170" y="230" fill="#6e756f">localhost / domínio local</text>
+
+    <rect x="475" y="120" width="230" height="130" rx="14" fill="#fff" stroke="#4f7055" stroke-width="3"/>
+    <text x="590" y="165" font-size="21" font-weight="700" fill="#36533b">Nginx</text>
+    <text x="590" y="205" fill="#6e756f">Proxy reverso</text>
+    <text x="590" y="230" fill="#6e756f">Porta 8080 → porta 80</text>
+
+    <rect x="895" y="120" width="230" height="130" rx="14" fill="#fff" stroke="#4f7055" stroke-width="3"/>
+    <text x="1010" y="165" font-size="21" font-weight="700" fill="#36533b">Aplicação Node.js</text>
+    <text x="1010" y="205" fill="#6e756f">Servidor HTTP</text>
+    <text x="1010" y="230" fill="#6e756f">Arquivos estáticos</text>
+
+    <rect x="895" y="420" width="230" height="130" rx="14" fill="#fff" stroke="#df8b50" stroke-width="3"/>
+    <text x="1010" y="465" font-size="21" font-weight="700" fill="#36533b">CI/CD</text>
+    <text x="1010" y="505" fill="#6e756f">GitHub Actions</text>
+    <text x="1010" y="530" fill="#6e756f">Push → Teste → Build</text>
+
+    <rect x="475" y="420" width="230" height="130" rx="14" fill="#fff" stroke="#df8b50" stroke-width="3"/>
+    <text x="590" y="465" font-size="21" font-weight="700" fill="#36533b">Docker Compose</text>
+    <text x="590" y="505" fill="#6e756f">Rede interna</text>
+    <text x="590" y="530" fill="#6e756f">Orquestra nginx + app</text>
+
+    <path d="M285 185H475" stroke="#263128" stroke-width="3" marker-end="url(#a)"/>
+    <path d="M705 185H895" stroke="#263128" stroke-width="3" marker-end="url(#a)"/>
+    <path d="M1010 250V420" stroke="#263128" stroke-width="3" marker-end="url(#a)"/>
+    <path d="M895 485H705" stroke="#263128" stroke-width="3" marker-end="url(#a)"/>
+    <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0l10 3-10 3z" fill="#263128"/></marker></defs>
+
+    <text x="380" y="170" fill="#4f7055">HTTP</text>
+    <text x="790" y="170" fill="#4f7055">Proxy</text>
+    <text x="1030" y="345" fill="#4f7055">gera</text>
+    <text x="790" y="470" fill="#4f7055">build</text>
+  </g>
+</svg>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Receitas simples, saborosas e feitas com carinho.">
+  <title>Dicas da Juju | Receitas para todos os dias</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Dicas da Juju - início">
+      <span class="brand-mark">J</span>
+      <span>Dicas da Juju</span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a class="active" href="#inicio">Início</a>
+      <a href="#receitas">Receitas</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">Receitas feitas com carinho</span>
+        <h1>Sabores que deixam o dia mais gostoso</h1>
+        <p>Receitas simples, explicadas passo a passo, para transformar ingredientes do dia a dia em momentos especiais.</p>
+        <a class="button" href="#receitas">Ver receitas <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-image">
+        <img src="/images/hero-salada.svg" alt="Prato colorido de salada fresca">
+      </div>
+    </section>
+
+    <section class="recipes" id="receitas">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">O que preparar hoje</span>
+          <h2>Receitas em destaque</h2>
+        </div>
+        <div class="filters" aria-label="Filtros de receitas">
+          <button class="filter active" data-filter="todos">Todos</button>
+          <button class="filter" data-filter="rapido">Rápidas</button>
+          <button class="filter" data-filter="doce">Doces</button>
+        </div>
+      </div>
+
+      <div class="recipe-grid">
+        <article class="recipe-card" data-category="rapido">
+          <img src="/images/macarrao.svg" alt="Macarrão com tomate e manjericão">
+          <div class="card-body">
+            <span class="tag">Rápido</span>
+            <h3>Macarrão ao molho fresco</h3>
+            <p>Tomate, alho e manjericão em uma massa leve e perfumada.</p>
+            <div class="card-meta"><span>⏱ 25 min</span><span>2 porções</span></div>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="rapido">
+          <img src="/images/salada.svg" alt="Salada colorida com legumes frescos">
+          <div class="card-body">
+            <span class="tag">Rápido</span>
+            <h3>Salada de verão</h3>
+            <p>Legumes crocantes, queijo suave e molho cítrico caseiro.</p>
+            <div class="card-meta"><span>⏱ 20 min</span><span>4 porções</span></div>
+            <a class="card-link" href="/receita-salada.html">Ver receita <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="doce">
+          <img src="/images/torta.svg" alt="Torta de maçã dourada">
+          <div class="card-body">
+            <span class="tag tag-warm">Doce</span>
+            <h3>Torta de maçã</h3>
+            <p>Maçãs macias, canela e uma massa dourada e crocante.</p>
+            <div class="card-meta"><span>⏱ 70 min</span><span>8 porções</span></div>
+            <a class="card-link" href="/receita-torta.html">Ver receita <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="rapido">
+          <img src="/images/sopa.svg" alt="Tigela de sopa de abóbora">
+          <div class="card-body">
+            <span class="tag">Rápido</span>
+            <h3>Sopa cremosa de abóbora</h3>
+            <p>Uma sopa aveludada para aquecer os dias mais frescos.</p>
+            <div class="card-meta"><span>⏱ 35 min</span><span>4 porções</span></div>
+            <a class="card-link" href="/receita-sopa.html">Ver receita <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="doce">
+          <img src="/images/bolo.svg" alt="Fatia de bolo de cenoura com cobertura">
+          <div class="card-body">
+            <span class="tag tag-warm">Doce</span>
+            <h3>Bolo de cenoura da vovó</h3>
+            <p>Macio por dentro, com uma cobertura brilhante de chocolate.</p>
+            <div class="card-meta"><span>⏱ 50 min</span><span>8 porções</span></div>
+          </div>
+        </article>
+
+        <article class="recipe-card" data-category="rapido">
+          <img src="/images/panqueca.svg" alt="Panquecas com frutas e mel">
+          <div class="card-body">
+            <span class="tag">Rápido</span>
+            <h3>Panquecas de banana</h3>
+            <p>Uma opção simples e nutritiva para começar o dia bem.</p>
+            <div class="card-meta"><span>⏱ 15 min</span><span>3 porções</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div>
+        <span class="eyebrow">Nossa cozinha</span>
+        <h2>Comida boa não precisa ser complicada.</h2>
+      </div>
+      <p>Aqui você encontra dicas práticas e receitas confiáveis para o almoço da semana, uma visita especial ou aquele doce desejado.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Dicas da Juju</span>
+    <span>Receitas para compartilhar momentos.</span>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

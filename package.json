@@ -1,0 +1,18 @@
+{
+  "name": "dicas-da-juju",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional de receitas publicado com Docker e Nginx",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "validate:compose": "node -e \"const fs=require('node:fs'); const YAML=require('yaml'); const data=YAML.parse(fs.readFileSync('docker-compose.yml','utf8')); if(!data.services?.app||!data.services?.nginx) throw new Error('Servicos app ou nginx ausentes'); console.log('docker-compose.yml valido com app e nginx');\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "yaml": "^2.9.1"
+  }
+}
