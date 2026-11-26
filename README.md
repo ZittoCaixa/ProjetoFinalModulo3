@@ -1,14 +1,22 @@
 Trabalho Realizado em Grupo, Ramon e Everton
 
+
 😎 Aluno/Empregado: RAMON MARQUES COUTINHO
+
 MATRICULA: C078969-0
+
 Assistente Pleno
+
 CESOB
 
 😎 Aluno/Empregado: Everton Lucas Fernandes
+
 MATRICULA: C150907-1
+
 Assistente Pleno
+
 CESOA
+----------------------------------------------------------------------------
 
 # Dicas da Juju
 
